@@ -11,5 +11,14 @@
       "# build-base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s"],
       "datasourceTemplate": "docker"
     }
+  ],
+  "packageRules": [
+    {
+      "enabled": true,
+      "matchDatasources": [
+        "docker"
+      ],
+      "pinDigests": true
+    }
   ]
 }
