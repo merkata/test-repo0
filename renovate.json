@@ -1,4 +1,4 @@
- {
+{
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
@@ -8,7 +8,7 @@
       "fileMatch": ["^rockcraft.yaml$"],
       "description": "Update base image references",
       "matchStrings": ["# base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s"],
-      "matchStrings": ["# build-base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s"],
+      "# build-base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s"],
       "datasourceTemplate": "docker"
     }
   ]
