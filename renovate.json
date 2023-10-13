@@ -19,6 +19,10 @@
         "docker"
       ],
       "pinDigests": true
+    },
+    {
+      "matchFiles": ["rockcraft.yaml"],
+      "matchUpdateTypes": ["minor", "patch", "digest"]
     }
   ]
 }
