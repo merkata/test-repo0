@@ -24,7 +24,8 @@
     },
     {
       "matchFiles": ["rockcraft.yaml"],
-      "matchUpdateTypes": ["digest"]
+      "matchUpdateTypes": ["minor", "patch"],
+      "enabled": false
     }
   ]
 }
