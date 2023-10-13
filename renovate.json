@@ -7,7 +7,7 @@
     {
       "fileMatch": ["^rockcraft.yaml$"],
       "description": "Update base image references",
-      "matchStrings": ["# base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s"],
+      "matchStrings": ["# base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s",
       "# build-base: (?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)s"],
       "datasourceTemplate": "docker"
     }
