@@ -1,12 +1,8 @@
-name: Auto-update charm libraries
+name: Autoremove outdated CVEs
 
 on:
   schedule:
-<<<<<<< HEAD
-    - cron: "30 * * * *"
-=======
-    - cron: "1 * * * *"
->>>>>>> main
+    - cron: "10 * * * *"
 
 jobs:
   auto-update-libs:
