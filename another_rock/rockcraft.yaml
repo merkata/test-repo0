@@ -7,9 +7,9 @@ version: "1.0"
 license: Apache-2.0
 
 base: ubuntu:22.04
-# renovate: base: ubuntu:22.04@sha256:2b7412e6465c3c7fc5bb21d3e6f1917c167358449fecac8176c6e496e5c1f05f
+# renovate: base: ubuntu:26.04@sha256:5e275723f82c67e387ba9e3c24baa0abdcb268917f276a0561c97bef9450d0b4
 build-base: ubuntu:22.04
-# renovate: build-base: ubuntu:22.04@sha256:2b7412e6465c3c7fc5bb21d3e6f1917c167358449fecac8176c6e496e5c1f05f
+# renovate: build-base: ubuntu:26.04@sha256:5e275723f82c67e387ba9e3c24baa0abdcb268917f276a0561c97bef9450d0b4
 platforms:
   amd64:  # Make sure this value matches your computer's architecture
 
